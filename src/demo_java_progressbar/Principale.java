@@ -33,14 +33,14 @@ public class Principale extends javax.swing.JFrame {
                     txtbarlog.setText("_____");
                     txtProgressBoule.setText("Running  ●");
                     sleep(400);
-                    xtProgressBoule.setText("Running  ●●");
+                    txtProgressBoule.setText("Running  ●●");
                     sleep(500);
                     txtbarlog.setText("_______");
                     txtloading.setText("Chargement du programme ...");
                     txtProgressBoule.setText("Running  ●●●");
                     sleep(600);
                     txtProgressBoule.setText("Running  ●");
-                    txtloading.setText("Téléchargement du programme ...");
+                    txtloading.setText("Téléchargement du Fichier .");
                     sleep(700);
                     txtbarlog.setText("_________");
                     txtProgressBoule.setText("Running  ●●");
@@ -50,6 +50,7 @@ public class Principale extends javax.swing.JFrame {
                     sleep(500);
                     txtProgressBoule.setText("Running  ●");
                     txtbarlog.setText("________________");
+                    txtloading.setText("Téléchargement du Fichier ..");
                     sleep(600);
                     txtProgressBoule.setText("Running  ●●");
                     sleep(700);
@@ -60,6 +61,7 @@ public class Principale extends javax.swing.JFrame {
                     txtProgressBoule.setText("Running  ");
                     sleep(700);
                     txtbarlog.setText("___________________________________");
+                    txtloading.setText("Téléchargement du Fichier ...");
                     txtProgressBoule.setText("Running  ●");
                     sleep(800);
                     txtbarlog.setText("________________________________________________________");
