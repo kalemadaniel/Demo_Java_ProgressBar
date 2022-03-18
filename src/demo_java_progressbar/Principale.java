@@ -29,40 +29,40 @@ public class Principale extends javax.swing.JFrame {
             try {
                 for(int i=0;i<1;i++){
                     sleep(300);
-                    Barlog.setText("_____");
+                    txtbarlog.setText("_____");
                     Run.setText("Running  ●");
                      sleep(400);
                    Run.setText("Running  ●●");
                      sleep(500);
-                    Barlog.setText("_______");
+                    txtbarlog.setText("_______");
                     Run.setText("Running  ●●●");
                     sleep(600);
                    Run.setText("Running  ●");
                      sleep(700);
-                    Barlog.setText("_________");
+                    txtbarlog.setText("_________");
                      Run.setText("Running  ●●");
                      sleep(500);
-                    Barlog.setText("___________");
+                    txtbarlog.setText("___________");
                        Run.setText("Running  ●●●");
                      sleep(500);
                         Run.setText("Running  ●");
-                    Barlog.setText("________________");
+                    txtbarlog.setText("________________");
                     sleep(600);
                    Run.setText("Running  ●●");
                      sleep(700);
                         Run.setText("Running  ●●●");
-                    Barlog.setText("____________________");
+                    txtbarlog.setText("____________________");
                      sleep(700);
-                    Barlog.setText("__________________________");
+                    txtbarlog.setText("__________________________");
                     Run.setText("Running  ");
                      sleep(700);
-                    Barlog.setText("___________________________________");
+                    txtbarlog.setText("___________________________________");
                     Run.setText("Running  ●");
                      sleep(800);
-                    Barlog.setText("________________________________________________________");
+                    txtbarlog.setText("________________________________________________________");
                     Run.setText("Running  ●●");
                     sleep(900);
-                    Barlog.setText("____________________________________________________________");
+                    txtbarlog.setText("____________________________________________________________");
                     Run.setText("Running  ●●●");
                   close();
                 }
@@ -86,9 +86,10 @@ public class Principale extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
-        Barlog = new javax.swing.JLabel();
+        txtbarlog = new javax.swing.JLabel();
         Run = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
+        txtloading = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -102,14 +103,17 @@ public class Principale extends javax.swing.JFrame {
         jLabel3.setText("Java Démo ProgressBar");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 420, 40));
 
-        Barlog.setText("jLabel4");
-        jPanel1.add(Barlog, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 180, 430, 30));
+        txtbarlog.setText("jLabel4");
+        jPanel1.add(txtbarlog, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 180, 430, 30));
 
         Run.setText("jLabel1");
         jPanel1.add(Run, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 210, 100, 20));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/logoJava.png"))); // NOI18N
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 30, 210, 150));
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 30, 210, 130));
+
+        txtloading.setText("jLabel2");
+        jPanel1.add(txtloading, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 170, 430, 20));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 430, 230));
 
@@ -159,10 +163,11 @@ public class Principale extends javax.swing.JFrame {
         });
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel Barlog;
     private javax.swing.JLabel Run;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JLabel txtbarlog;
+    private javax.swing.JLabel txtloading;
     // End of variables declaration//GEN-END:variables
 }
