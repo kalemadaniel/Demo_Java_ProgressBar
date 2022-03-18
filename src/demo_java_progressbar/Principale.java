@@ -30,40 +30,40 @@ public class Principale extends javax.swing.JFrame {
                 for(int i=0;i<1;i++){
                     sleep(300);
                     txtbarlog.setText("_____");
-                    Run.setText("Running  ●");
+                    txtProgressBoule.setText("Running  ●");
                      sleep(400);
-                   Run.setText("Running  ●●");
+                   txtProgressBoule.setText("Running  ●●");
                      sleep(500);
                     txtbarlog.setText("_______");
-                    Run.setText("Running  ●●●");
+                    txtProgressBoule.setText("Running  ●●●");
                     sleep(600);
-                   Run.setText("Running  ●");
+                   txtProgressBoule.setText("Running  ●");
                      sleep(700);
                     txtbarlog.setText("_________");
-                     Run.setText("Running  ●●");
+                     txtProgressBoule.setText("Running  ●●");
                      sleep(500);
                     txtbarlog.setText("___________");
-                       Run.setText("Running  ●●●");
+                       txtProgressBoule.setText("Running  ●●●");
                      sleep(500);
-                        Run.setText("Running  ●");
+                        txtProgressBoule.setText("Running  ●");
                     txtbarlog.setText("________________");
                     sleep(600);
-                   Run.setText("Running  ●●");
+                   txtProgressBoule.setText("Running  ●●");
                      sleep(700);
-                        Run.setText("Running  ●●●");
+                        txtProgressBoule.setText("Running  ●●●");
                     txtbarlog.setText("____________________");
                      sleep(700);
                     txtbarlog.setText("__________________________");
-                    Run.setText("Running  ");
+                    txtProgressBoule.setText("Running  ");
                      sleep(700);
                     txtbarlog.setText("___________________________________");
-                    Run.setText("Running  ●");
+                    txtProgressBoule.setText("Running  ●");
                      sleep(800);
                     txtbarlog.setText("________________________________________________________");
-                    Run.setText("Running  ●●");
+                    txtProgressBoule.setText("Running  ●●");
                     sleep(900);
                     txtbarlog.setText("____________________________________________________________");
-                    Run.setText("Running  ●●●");
+                    txtProgressBoule.setText("Running  ●●●");
                   close();
                 }
             } catch (Exception e) {
@@ -87,7 +87,7 @@ public class Principale extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         txtbarlog = new javax.swing.JLabel();
-        Run = new javax.swing.JLabel();
+        txtProgressBoule = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         txtloading = new javax.swing.JLabel();
 
@@ -106,8 +106,8 @@ public class Principale extends javax.swing.JFrame {
         txtbarlog.setText("jLabel4");
         jPanel1.add(txtbarlog, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 180, 430, 30));
 
-        Run.setText("jLabel1");
-        jPanel1.add(Run, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 210, 100, 20));
+        txtProgressBoule.setText("jLabel1");
+        jPanel1.add(txtProgressBoule, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 210, 100, 20));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/logoJava.png"))); // NOI18N
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 30, 210, 130));
@@ -163,10 +163,10 @@ public class Principale extends javax.swing.JFrame {
         });
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel Run;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JLabel txtProgressBoule;
     private javax.swing.JLabel txtbarlog;
     private javax.swing.JLabel txtloading;
     // End of variables declaration//GEN-END:variables
